@@ -28,11 +28,11 @@ Transform:
   m_GameObject: {fileID: 337853188496883109}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.5355835, y: 1.37499, z: -4.4963837}
+  m_LocalPosition: {x: 0, y: 1.375, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6785176748045666813}
+  m_Father: {fileID: 6770372904974873535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6330031007013694754
 MonoBehaviour:
@@ -150,8 +150,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2908690600177636647}
-  - {fileID: 8903820791308815619}
   - {fileID: 6770372904974873535}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -167,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 3554688859
+  GlobalObjectIdHash: 407385178
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -247,6 +245,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2908690600177636647}
+  - {fileID: 8903820791308815619}
   - {fileID: 4856022039860506564}
   - {fileID: 4661397579188469755}
   m_Father: {fileID: 6785176748045666813}
@@ -456,6 +456,9 @@ MonoBehaviour:
   m_StarterAssetsInputs: {fileID: 5767564316048121056}
   m_FirstPersonController: {fileID: 3948602304856274061}
   m_BasicRigidBodyPush: {fileID: 4386219081772370450}
+  m_MainCamera: {fileID: 8416898473780469849}
+  m_PlayerFollowCamera: {fileID: 337853188496883109}
+  m_PlayerCameraRoot: {fileID: 7414976347881319123}
 --- !u!114 &8178962406239503272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,11 +534,11 @@ Transform:
   m_GameObject: {fileID: 8416898473780469849}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.5355835, y: 1.37499, z: -4.4963837}
+  m_LocalPosition: {x: 0, y: 1.375, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6785176748045666813}
+  m_Father: {fileID: 6770372904974873535}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &2590475549919719238
 Camera:
